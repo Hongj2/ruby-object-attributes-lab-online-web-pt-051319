@@ -15,3 +15,9 @@ class Person
     @job
   end
 end
+
+person = Person.new
+
+person.job ="singer"
+
+puts person.job
